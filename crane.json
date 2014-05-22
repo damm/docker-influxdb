@@ -1,0 +1,13 @@
+{
+    "containers": [
+        {
+            "name": "influxdb",
+            "dockerfile": ".",
+            "image": "damm/influxdb",
+            "run": {
+                "detach": true,
+                "publish": ["2013:2003","8083:8083","8086:8086"]
+            }
+        }
+    ]
+}
