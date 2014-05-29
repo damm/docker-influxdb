@@ -6,4 +6,4 @@ influxdb:
     - 8083:8083
     - 8086:8086
   volumes:
-    - /opt/influxdb/shared/data:/opt/influxdb/shared/data
+    - /opt/influxdb/shared:/opt/influxdb/shared
